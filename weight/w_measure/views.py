@@ -31,5 +31,5 @@ def index(request):
 
 
 
-    my_dict={'insert_me': "intvar" ,}
-    return render(request,'w_measure/index.html',context=intvar)
+    my_dict={'insert_me': "var2" ,}
+    return render(request,'w_measure/index.html',context=my_dict)
