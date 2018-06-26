@@ -13,8 +13,7 @@ def index(request):
             i=0
             var1=""
             while i<11:
-                size=ser.inWaiting()
-                if (size):
+                
                 data=ser.read(ser.inWaiting())
                 if(data):
                     var1+=str(data)
